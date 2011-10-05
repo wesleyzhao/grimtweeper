@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Bebas;
+    src: url('style/BebasNeue.otf');
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: lucida grande, helvetica, arial, sans-serif;
+    text-align: center;
+    background-color: #cddde4;
+    color: #595959;
+}
+
+h2{
+    font-family: bebas;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #58d5ff;
+}
+
+
+
+#leaderboard{
+    margin: 0 auto;
+    border: solid #595959 2px;
+    border-spacing: 0;
+    font-size: 16px;
+    background: #deeff6;
+    max-width: 670px;
+}
+
+
+/*define columns*/
+
+.name{
+
+    padding-left: 5px;
+    text-align: left;
+}
+
+.numeral{
+    font-size: 26px;
+    width: 28px;
+    text-align: center;
+}
+
+.score{
+    width: 80px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+/*define rows*/
+
+.odd{
+    background-color: white;
+}
+
+.even{
+    /*color: #474747;*/
+    
+}
+
+/*
+ <tr class = "odd">
+    <td class = "numeral">1</td>
+    <!--<td><img src = "http://a0.twimg.com/profile_images/1144137504/Screen_shot_2010-10-13_at_4.46.50_PM.png" height = "36px"</td>
+    --><td class = "name">Ajay Mehta</td>
+    <td class = "score">9000</td>
+  </tr>
+  <tr class = "even">
+    <td class = "numeral">2</td>
+    <!--<td><img src = "http://a3.twimg.com/profile_images/1239798662/filephoto-small.jpg" height = "36px"</td>
+    --><td class = "name">Dan Shipper</td>
+    <td class = "score">8999</td>
+  </tr>
+    <tr class = "odd">
+    <td class = "numeral">3</td>
+    <!--<td><img src = "http://a0.twimg.com/profile_images/1144137504/Screen_shot_2010-10-13_at_4.46.50_PM.png" height = "36px"</td>
+    --><td class = "name">Ajay Mehta's Evil Twin</td>
+    <td class = "score">600</td>
+  </tr>
+    <tr class = "even">
+    <td class = "numeral">4</td>
+    <!--<td><img src = "http://a3.twimg.com/profile_images/1239798662/filephoto-small.jpg" height = "36px"</td>
+    --><td class = "name">Dan Shipper's AlterE</td>
+    <td class = "score">7</td>
+    </tr>*/
+

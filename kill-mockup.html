@@ -1,0 +1,94 @@
+<html>
+<head>
+	<link rel="stylesheet" href="main.css" type="text/css"/>
+		<style>
+			
+</style>
+	<!--NOTE THAT THIS IS TESS'S LAYOUT JS, NOT THE JS THAT YOU NEED FOR JQUERY-->
+	
+	<script type="text/javascript">
+		function unhide(div_id) {
+		var item = document.getElementById(div_id);
+		if (item) {
+			item.className=(item.className=='hidden')?'unhidden':'hidden';
+		}
+	}
+	</script>
+	
+	<title>The Grim Tweeper</title>
+	</head>
+	<body>
+		<div id = "header">
+			<div id = "headwrap">
+			<h1>The Grim Tweeper</h1>
+			<div id = "you">
+				<img src ='http://a2.twimg.com/profile_images/1251901520/Screen_shot_2011-02-22_at_6.50.35_PM_normal.png' height = 18px /> <a href = "" class = inherit>@temiri</a>
+			</div>
+			</div>
+		
+		</div>
+		
+		<div class = "wrapper">
+			<div id = "content">
+				Who do you have on the chopping block now? <br /><br />
+				
+	
+				<div id = "controls">
+					<a href = "" id = "kill">KILL</a>
+					 <a href = "" id = "keep">KEEP</a>
+					<div id="last-rejected">Last reject: @bitch. Click here to refriend.</div>		
+				</div>
+				<div id = "them">
+					<img src = 'http://a1.twimg.com/profile_images/1274255330/Antonio_normal.jpg' style="float:left; margin: 8px 10px 4px 0px;">
+					<h2>Antonio Skilton</h2><br />
+					<div id="subinfo">
+					<span id="friend-username"><a href = "http://twitter.com/antonioskilton">@antonioskilton</a></span>
+					<div style="font-size: 12px; display: inline;">Seattle, WA</div><br />    
+					</div>
+					<em>Stage manager, politics junkie.</em><br /><br />
+			
+					
+					<div class = "more_info" style = "margin-left:-15px"><span class = "num">18</span><br />Followers</div>
+					<div class = "more_info" ><span class = "num">56</span><br />Following</div> 
+					<div class = "more_info" ><span class = "num">2</span><br /><b>Tweets/day</b></div>
+					<div class = "more_info" style = "border:none"><img src = "http://www.law.columbia.edu/ipimages/Information_technology/images/checkmark.png" width = 30px /><br /><b>Follows You</b></div><br />
+			    
+					<h4><a href = "javascript:unhide('latest');" class = "inherit">>See @antonioskilton's Latest Tweets</a></h4>
+					<div id = "latest" class = "hidden">@drewinglis #GoogleMotion
+Fri Apr 01 16:53:37 +0000 2011
+						
+@Google, your @AprilFoolsDay prank is amazing.
+Fri Apr 01 16:49:17 +0000 2011
+						
+oh hello there, second to last month of @lakesideschool!
+#GWU @theUHP here I come!
+Fri Apr 01 13:05:40 +0000 2011
+						
+					</div>
+				</div><!--end of them-->
+			</div>
+		
+		<div id = "promo">
+			<div id="float-right">
+					<img src = "like.png" />
+					<img src = "tweet.png" />
+			</div>
+			You've killed <span id = "kill_count">10</span> follows with The Grim Tweeper.
+		 
+			
+		</div> 
+		<br><br> 
+		<div class="footer"> 
+		<span id = "about">The Grim Tweeper is Copyright 2011 Dan Shipper, Tess Rinearson and Wesley Zhao</span> 
+		</div>        
+	</div>
+		
+		<!--
+<div id='friend-stuff'>
+</div>
+
+<button type='button' onclick='javascript:replacePerson();' id = "next">Shuffle</button>
+</body>
+<div id='message-div'>
+</div>-->
+

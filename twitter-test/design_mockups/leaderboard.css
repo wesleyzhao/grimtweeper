@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Bebas;
+    src: url('style/BebasNeue.otf');
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: lucida grande, helvetica, arial, sans-serif;
+    text-align: center;
+    background-color: #cddde4;
+    color: #595959;
+}
+
+h2{
+    font-family: bebas;
+    font-weight: normal;
+    font-size: 38px;
+}
+
+
+
+#leaderboard{
+    margin: 0 auto;
+    border: solid #595959 2px;
+    border-spacing: 0;
+    font-size: 20px;
+    background: #deeff6;
+    max-width: 670px;
+}
+
+
+/*define columns*/
+
+.name{
+
+    padding-left: 5px;
+    text-align: left;
+}
+
+.numeral{
+    font-size: 34px;
+    width: 36px;
+    text-align: center;
+}
+
+.score{
+    width: 150px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+/*define rows*/
+
+.odd{
+    background-color: white;
+}
+
+.even{
+    /*color: #474747;*/
+    
+}
+

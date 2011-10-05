@@ -1,0 +1,193 @@
+/*
+CSS stylesheet for Tasteplug
+Dan Shipper
+Wesley Zhao
+Ajay Mehta  
+2011
+*/
+
+/* reset body */
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #cddde4; 
+}
+     
+@font-face {
+    font-family: Pico;
+    src: url('Pico.ttf');
+}   
+
+@font-face{
+	font-family: Bebas;
+	src: url("BebasNeue.otf");
+}
+
+
+/* main things */ 
+
+html {
+    font-family: Helvetica;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-size: 14px;
+}
+
+img{
+	border: 0;	
+}
+a {
+	outline: none;
+	color: #094186;
+  	text-decoration: none;	
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a img{
+	border: none;	
+}   
+  
+.mid-box{
+	background-color: #5285a6;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  
+	width: 633px;
+	height: 123px;
+	margin: auto; 
+	margin-top: 200px;     
+    -moz-box-shadow: 1px 1px 10px #709ebc;       
+    box-shadow: 1px 1px 10px #709ebc;
+	
+}     
+
+.right{
+	font-size: 20px;            
+	float: right;
+	width: 510px;
+	color:white; 
+	margin-top: 10px;      
+}                  
+
+.header{ 
+   font-family: "Pico";      
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 400; 
+   color: #cddde4;
+}  
+
+.reaper{
+	position: relative;
+	bottom: 230px;  
+	left: -60px; 
+	z-index: 5;
+}   
+
+.twitter{
+	position: relative;
+	bottom: 330px;
+} 
+
+.outside-box{
+	background-color: white;
+	width: 900px; 
+	height: 200px;
+	margin: auto; 
+	margin-top: 150px;   
+	padding-top: 50px;
+}
+
+.bottom-band{
+	width: 100%;
+	height: 100px;
+	background-color: #172749;
+} 
+
+.head{       
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	width: 430px;
+	margin: auto;
+	font: 30px "Rockwell";
+	color: white;
+}  
+
+.description{
+	width: 670px;
+	height: 120px;
+	background-color: #e9f2f9;      
+	margin: auto;
+	margin-top: 80px;  
+	padding: 10px;
+}    
+
+.sub{
+	font: 18px Helvetica;
+	letter-spacing: 1px;
+	line-height: 22px;       
+}     
+
+ol{                 
+	display: block; 
+	float: left;   
+	padding: 0px;
+}                      
+
+li{
+	display: block;
+	float: left; 
+	font: 14px Helvetica;
+	color: #626262;         
+} 
+
+.lower{
+	position: relative;
+	top: 8px; 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.step-one{
+	width: 210px;
+	border-right: 1px solid #b1b2b2;  
+	padding-left: 10px;
+}   
+.step-two{
+	width: 210px;
+	border-right: 1px solid #b1b2b2;    
+	padding-left: 10px;
+}   
+.step-three{
+	width: 210px;  
+	padding-left: 10px;    
+} 
+
+#steps{
+	font-family: "Bebas";
+	font-size: 18px;          
+	color: #595959;
+	padding-bottom: 10px;
+}   
+
+.login-bar{
+	float: right;
+    margin-top: -205px;
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 3px #111111;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #111111; 
+} 
+
+.wrapper{
+	width: 700px;
+	margin: auto;
+}

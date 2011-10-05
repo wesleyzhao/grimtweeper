@@ -1,0 +1,275 @@
+/*
+ 
+ Kill page
+ Copyright 2011 Tess Rinearson
+ 
+*/
+
+
+@font-face {
+	font-family: Pico;
+	src: url('pico.ttf');
+}
+
+@font-face {
+    font-family: Arista;
+    src: url('Arista.ttf');
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#about{
+    text-align: left;
+    float: right;
+    font-size: 10px;
+}
+
+.ar{
+    font-family: Arista;
+    font-size: 105%;
+}
+
+body{
+    background: url(bg4.png) repeat;
+    font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #232323;
+}
+
+#content{
+    margin: 0 auto;
+    background: white;
+    width: 800px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 20px 45px;
+    margin-top: 20px;
+    font-size: 14px;  
+	min-height: 250px;
+} 
+
+#promo{
+    margin: 0 auto;
+    background: white;
+    width: 800px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 20px 45px;
+    margin-top: 20px;
+    font-size: 14px; 
+}
+
+#controls{
+    margin-left: 400px;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.emph{
+    font-size: 120%;
+    color: #58d5ff;
+    font-weight: 700;
+}
+
+h1 {
+	color: #E9F2F9;
+    text-shadow: 0px -2px 1px #385B72;
+  font-family: 'Pico', serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;  
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  
+			}
+
+h2, h4{
+    color: #58d5ff;     
+}
+
+h2{   
+	position: relative;
+	top: 10px;
+    display: inline;      
+}
+
+h3{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h4{
+    margin-bottom: 0;
+}
+
+#header{
+    background: #5285a6;
+    margin-top: 0;
+}
+
+#headwrap{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.hidden {
+    visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+        }
+ .unhidden {
+    visibility: visible; }
+
+.inherit{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#keep, #kill{
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    background: url(green.png) repeat;
+    display: inline-block;
+    font-size: 30px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    border: solid 1px #277827;
+    text-decoration: none;
+    
+}
+
+#kill{
+    background: url(red.png) repeat;
+    border: solid 1px #962c2c;
+    margin-right: 20px;
+}
+
+#kill_count{
+    font-size: 140%;
+    color: #5285a6;
+    font-weight: 700;
+}
+
+#controls a:hover{
+    border-width: 2px;
+    width: 98px;
+    height: 35px;
+}
+
+#latest{
+    
+    width: 400px;
+    overflow: hidden;
+}
+
+.more_info{
+    width:  100px;
+    font-size: 10px;
+    text-align: center;
+    border-right: solid 1px #999999;
+    display: inline-block;    
+    margin: 0;
+    margin-top: 5px;
+    
+}
+
+#next{
+    background: none;
+    border: none;
+}
+
+.num{
+    font-size: 20px;
+}
+
+#promo{
+
+
+}
+
+#them{
+    border-right: solid #999999 1px;
+    width: 50%;
+    box-shadow: 1px 0px 1px #cccccc;
+    -moz-box-shadow: 1px 0px 0px #cccccc;
+}
+
+
+#you{
+    float: right;
+    margin-top: -95px;
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 1px 1px 3px #111111;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #111111;
+    
+}   
+
+#friend-username{
+	font-weight: bold;
+	display: inline;   
+}
+
+#subinfo{
+	padding: 10px;
+}                       
+
+#last-rejected{
+	padding-top: 15px;
+}
+
+                 
+.current-image{
+	width: 48px;
+	height: 48px;
+}
+
+.footer{
+	width: 900px;
+	margin: 0px auto;
+}               
+
+#float-right{
+	float: right;
+}    
+
+#friend-location{
+	font-size: 12px;
+	display: inline;
+	padding-left: 10px;
+}
+          
+.profile-image{
+	width: 18px;
+	height: 18px;
+}   
+
+.tweet-button{
+	float: right;
+}   
+
+.login-link{
+	z-index: 5;
+}
